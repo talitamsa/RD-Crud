@@ -1,5 +1,10 @@
 .destaque{
-    background-color: rgb(100, 1, 165);
-    border-radius: 5px;
-    padding: 5px;
+background-color: rgb(100, 1, 165);
+border-radius: 5px;
+padding: 5px;
+}
+*{
+font-family: 'Raleway', 'Extra-Light';
+font-size: small;
+text-shadow: 4px 4px 4px #aaa;
 }

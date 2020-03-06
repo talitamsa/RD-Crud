@@ -22,6 +22,7 @@ import { ProdutoComponent } from './components/produto/produto.component';
     ListaDeProdutosComponent,
     GruposComponent,
     ProdutoComponent
+    
   ],
   imports: [
     BrowserModule,

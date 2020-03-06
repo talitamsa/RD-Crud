@@ -1,4 +1,4 @@
-<ul>
+<ul class="navbar d-flex justify-content-around bg-info rounded">
     <li *ngFor="let g of grupos">
         <a (click)="grupoClicado.emit(g)">{{g.desc}}</a>
     </li>

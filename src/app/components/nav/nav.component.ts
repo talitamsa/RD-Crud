@@ -31,20 +31,18 @@ export class NavComponent implements OnInit {
     }
   ]
 
-  constructor() { 
+  constructor() { }
+// // fazendo com que todos os itens fiquem inativos
+//   destacar(item: iItem) {
+//     this.itens.forEach(
+//       (item) => {
+//         item.ativo = false
+//       }
+//     )
 
-  }
-// fazendo com que todos os itens fiquem inativos
-  destacar(item: iItem) {
-    this.itens.forEach(
-      (item) => {
-        item.ativo = false
-      }
-    )
-
-    //dando destaque ao item
-    item.ativo = true;
-  }
+//     //dando destaque ao item
+//     item.ativo = true;
+//   }
 
   ngOnInit(): void {
   }
