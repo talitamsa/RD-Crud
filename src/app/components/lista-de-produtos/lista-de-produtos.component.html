@@ -1,0 +1,7 @@
+<!-- <ul>
+    <li *ngFor="let g of produtos">
+        {{g.desc}}
+    </li>
+</ul> -->
+
+<app-produto *ngFor="let p of produtosExibidos" [produto]="p"></app-produto>
